@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Portofolio pribadi Wahyu Mahkota Rama, siswa kelas 12 MAN 3 Magetan.">
+
+  <title>Wahyu Mahkota Rama | Portfolio</title>
+
+  <!-- Menghubungkan CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">WMR<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Buka menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact" class="nav-contact">Kontak ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+
+      <div class="hero-content reveal">
+
+        <div class="status">
+          <span class="status-dot"></span>
+          Siswa MAN 3 Magetan
+        </div>
+
+        <p class="eyebrow">HALO, SAYA</p>
+
+        <h1>
+          Wahyu Mahkota<br>
+          <span>Rama.</span>
+        </h1>
+
+        <h2>
+          Pelajar yang tertarik pada
+          <span id="typingText">teknologi.</span>
+        </h2>
+
+        <p class="hero-description">
+          Saya adalah siswa kelas 12 jurusan Agama di MAN 3 Magetan.
+          Saya sedang belajar, mengembangkan kemampuan, dan membangun
+          berbagai proyek untuk masa depan.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Lihat Proyek <span>↗</span>
+          </a>
+
+          <a href="#about" class="btn btn-secondary">
+            Tentang Saya
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>📍 Magetan, Jawa Timur</span>
+          <span>🎓 Kelas XII</span>
+        </div>
+
+      </div>
+
+      <!-- PROFIL DAN JAM -->
+      <div class="hero-visual reveal">
+
+        <div class="visual-glow"></div>
+
+        <!-- JAM DINDING -->
+        <div class="wall-clock" aria-label="Jam analog">
+
+          <div class="clock-face">
+
+            <span class="clock-number n12">12</span>
+            <span class="clock-number n3">3</span>
+            <span class="clock-number n6">6</span>
+            <span class="clock-number n9">9</span>
+
+            <div class="clock-hand hour-hand" id="hourHand"></div>
+            <div class="clock-hand minute-hand" id="minuteHand"></div>
+            <div class="clock-hand second-hand" id="secondHand"></div>
+
+            <div class="clock-center"></div>
+
+          </div>
+
+          <div class="clock-digital" id="digitalClock">
+            00:00:00
+          </div>
+
+          <div class="clock-caption">
+            LOCAL TIME · WIB
+          </div>
+
+        </div>
+
+        <!-- KARTU PROFIL -->
+        <div class="profile-card">
+
+          <div class="card-top">
+            <span>PERSONAL PROFILE</span>
+            <span class="card-dot"></span>
+          </div>
+
+          <div class="profile-avatar">WMR</div>
+
+          <h3>Wahyu Mahkota Rama</h3>
+          <p>Student & Future Engineer</p>
+
+          <div class="profile-divider"></div>
+
+          <div class="profile-info">
+
+            <div>
+              <span>Sekolah</span>
+              <strong>MAN 3 Magetan</strong>
+            </div>
+
+            <div>
+              <span>Jurusan</span>
+              <strong>Agama</strong>
+            </div>
+
+            <div>
+              <span>Fokus</span>
+              <strong>Learning & Building</strong>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="floating-badge badge-bottom">
+          <span>✦</span> Keep Learning
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- TENTANG SAYA -->
+    <section class="section about" id="about">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / TENTANG SAYA</p>
+        <h2>Mengenal saya<br>lebih dekat.</h2>
+      </div>
+
+      <div class="about-content reveal">
+
+        <p>
+          Halo! Nama saya Wahyu Mahkota Rama. Saya merupakan siswa
+          kelas 12 jurusan Agama di MAN 3 Magetan.
+        </p>
+
+        <p>
+          Saya memiliki ketertarikan terhadap teknologi, pemrograman,
+          dan pengembangan website. Saat ini saya sedang belajar
+          membangun website serta mengembangkan kemampuan digital
+          melalui berbagai proyek sederhana.
+        </p>
+
+        <p>
+          Bagi saya, setiap proyek adalah kesempatan untuk belajar,
+          mencoba hal baru, dan menjadi lebih baik dari sebelumnya.
+        </p>
+
+        <div class="about-tags">
+          <span>Curious Mind</span>
+          <span>Self Learning</span>
+          <span>Creative Thinking</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section class="section skills" id="skills">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / KEAHLIAN</p>
+        <h2>Hal yang sedang<br>saya pelajari.</h2>
+      </div>
+
+      <div class="skill-grid">
+
+        <article class="skill-card reveal">
+          <span class="skill-number">01</span>
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>HTML</h3>
+          <p>Membangun struktur dan konten website.</p>
+          <span class="skill-status">Sedang dipelajari</span>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-number">02</span>
+          <div class="skill-icon">✳</div>
+          <h3>CSS</h3>
+          <p>Mendesain tampilan website agar menarik dan responsif.</p>
+          <span class="skill-status">Sedang dipelajari</span>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-number">03</span>
+          <div class="skill-icon">{ }</div>
+          <h3>JavaScript</h3>
+          <p>Mempelajari interaksi dan fungsi website.</p>
+          <span class="skill-status">Sedang dipelajari</span>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- PROYEK -->
+    <section class="section projects" id="projects">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / PROYEK</p>
+        <h2>Beberapa hal yang<br>sedang saya bangun.</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+
+          <div class="project-preview preview-one">
+            <span class="preview-label">PROJECT 01</span>
+
+            <div class="preview-window">
+              <div class="window-dots">● ● ●</div>
+              <div class="window-line"></div>
+
+              <div class="window-blocks">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <p class="project-category">WEB DEVELOPMENT</p>
+            <h3>Website Portofolio</h3>
+
+            <p>
+              Website pribadi untuk memperkenalkan diri,
+              menampilkan kemampuan, dan dokumentasi proyek.
+            </p>
+
+            <div class="project-footer">
+              <span>HTML · CSS · JS</span>
+              <a href="#contact" aria-label="Tanya tentang proyek">↗</a>
+            </div>
+          </div>
+
+        </article>
+
+        <article class="project-card reveal">
+
+          <div class="project-preview preview-two">
+            <span class="preview-label">PROJECT 02</span>
+
+            <div class="catalog-preview">
+              <div class="catalog-top">KATALOG PRODUK</div>
+
+              <div class="catalog-products">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="catalog-line"></div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <p class="project-category">WEB DEVELOPMENT</p>
+            <h3>Website Katalog Bisnis</h3>
+
+            <p>
+              Konsep website katalog produk untuk membantu
+              bisnis menampilkan produk secara digital.
+            </p>
+
+            <div class="project-footer">
+              <span>HTML · CSS · JS</span>
+              <a href="#contact" aria-label="Tanya tentang proyek">↗</a>
+            </div>
+          </div>
+
+        </article>
+
+      </div>
+
+      <p class="project-note">
+        * Ganti proyek contoh ini dengan proyek yang benar-benar
+        sudah kamu buat.
+      </p>
+
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section contact" id="contact">
+
+      <div class="contact-box reveal">
+
+        <p class="eyebrow">04 / KONTAK</p>
+
+        <h2>Mari terhubung<br>dan berkolaborasi.</h2>
+
+        <p>
+          Punya ide, ingin berdiskusi, atau tertarik dengan
+          proyek saya? Silakan hubungi saya.
+        </p>
+
+        <a href="mailto:EMAIL_KAMU@example.com"
+          class="btn btn-primary">
+          Hubungi Saya <span>↗</span>
+        </a>
+
+        <div class="social-links">
+          <a href="https://github.com/"
+            target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+
+          <a href="https://www.linkedin.com/"
+            target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <a href="#home" class="logo">WMR<span>.</span></a>
+
+    <p>
+      © <span id="year"></span> Wahyu Mahkota Rama.
+    </p>
+
+    <a href="#home">Kembali ke atas ↑</a>
+
+  </footer>
+
+  <!-- Menghubungkan JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
